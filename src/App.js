@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/header.js"
+import Intro from "./components/features/intro.js"
+import Whyframe from "./components/features/whyframe.js"
+import FeatureWorks from "./components/features/feature.js"
+import Impressivework from "./components/features/impressivework.js"
+import Whychoose from "./components/features/whychoose.js"
+import Client from "./components/features/client.js"
+import Footer from "./components/features/footer.js"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Intro/>
+      <Whyframe/>
+      <FeatureWorks/>
+      <Impressivework/>
+      <Whychoose/>
+      <Client/>
+      <Footer/>
     </div>
   );
 }

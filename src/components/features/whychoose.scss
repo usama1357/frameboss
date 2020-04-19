@@ -1,0 +1,38 @@
+.whychoose{
+  margin-top: 100px;
+  .headline{
+    display: block;
+    text-align: left;
+    font-size: 60px;
+    font-weight:bold;
+    color: #112D46;
+  }
+  .title{
+    display: block;
+    width: 80%;
+    text-align: left;
+    font-size: 29px;
+    color: #707070;
+  }
+  .start_framing{
+  display: block;
+  margin-top: 40px;
+  width: 354px;
+  height: 67px;
+  font-weight: bold;
+  color: #112D46;
+  border-color: #112D46;
+  font-size: 25px;
+  border-radius: 50px 50px 50px 50px;
+  }
+  .start_framing:hover{
+  background-color:  #112D46;
+  border-color: #112D46;
+  }
+  .front{
+    position:absolute;
+    top:66px;
+    left:50px;
+    z-index:2
+  }
+}

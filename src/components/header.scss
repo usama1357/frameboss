@@ -1,0 +1,74 @@
+.navbar{
+  background-color: #112D4612;
+  box-shadow: 0px 3px 6px #112D4612;
+  height: 110px;
+  h2{
+    color: #112D46;
+    font-weight: bold;
+    font-size: 40px
+  }
+  .usericon{
+    width: 40px;
+    height: 33px;
+    margin:auto;
+    margin-left:70px;
+    margin-right:55px;
+  }
+  .carticon{
+    width: 47px;
+    height: 47px;
+    margin:auto;
+    margin-top: 10px;
+  }
+  .dropdown,.link{
+    font-size: 22px;
+    letter-spacing: 2.86px;
+    color: #707070;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .dropdown-frames, .dropdown-services{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+      a{
+        color: #9D9D9D;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      a:hover{
+        color:black;
+        font-weight:bold
+      }
+  }
+  .services:hover{
+    .dropdown-services{
+      display: block;
+    }
+    .dropdown1{
+      color:black;
+      font-weight: bold;
+    }
+  }
+  .frames:hover{
+    .dropdown-frames{
+      display: block;
+    }
+    .dropdown2{
+      color:black;
+      font-weight: bold;
+    }
+  }
+
+  }
+
+  @media screen and (min-width: 1400px) {
+    .dropdown,.link{
+      margin-right:25px;
+    }
+  }
